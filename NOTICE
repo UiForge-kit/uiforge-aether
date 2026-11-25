@@ -1,0 +1,42 @@
+Aether — third-party notices
+
+Aether is released under the MIT License (see LICENSE). The MIT License covers the code written
+for this template. The third-party material below keeps its own license.
+
+npm dependencies keep the licenses declared in their own packages. Run `npx license-checker --summary`
+to list them. The sections below cover material that is embedded in this repository or loaded at build time.
+
+## Components
+
+- shadcn/ui: the files in `components/ui` start from shadcn/ui components (MIT, Copyright (c) 2023 shadcn).
+  https://github.com/shadcn-ui/ui/blob/main/LICENSE.md
+- Base UI (`@base-ui/react`): MIT, used as a dependency.
+
+## Icons
+
+- Hugeicons free icons (`@hugeicons/core-free-icons`, `@hugeicons/react`): MIT, as declared in the packages.
+- Lucide (`lucide-react`): ISC, Copyright (c) 2026 Lucide Icons and Contributors.
+
+## Fonts
+
+Loaded through `next/font/google`, which downloads and self-hosts the files at build time.
+All four families are published under the SIL Open Font License 1.1 (https://openfontlicense.org):
+Inter, Space Grotesk, Lora and Geist Mono.
+
+## Avatars (DiceBear)
+
+The profile avatar gallery generates avatars locally with `@dicebear/core` and three styles from `@dicebear/collection`.
+Each style package is declared as `MIT AND CC-BY-4.0`: the code is MIT, the artwork is CC BY 4.0
+(https://creativecommons.org/licenses/by/4.0/). Attribution is required when you ship these avatars:
+
+- Adventurer by Lisa Wischofsky (https://www.instagram.com/lischi_art/)
+- Fun Emoji by Davis Uche (https://www.instagram.com/davedirect3/)
+- Micah by Micah Lanier (https://dribbble.com/micahlanier)
+
+If you remove these styles from `lib/avatars.ts`, you can remove this section.
+
+## Brand logos
+
+`components/integrations/logos.tsx` and `config/integrations.ts` draw logos and names of third-party services
+(Google Drive, GitHub, Slack and others) to illustrate the integrations screen. These marks belong to their owners,
+are used for identification only, and do not imply any partnership or endorsement. Replace them with the integrations you actually ship.
