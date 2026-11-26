@@ -89,7 +89,7 @@ The purchase link shown on locked cards is set with `NEXT_PUBLIC_UPGRADE_URL`. L
 
 | | |
 | --- | --- |
-| Framework | Next.js 16.3 (App Router) |
+| Framework | Next.js 16.4 (App Router) |
 | UI | React 19.2 |
 | Language | TypeScript 5 (strict) |
 | Styling | Tailwind CSS 4 |

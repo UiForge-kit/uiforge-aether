@@ -89,7 +89,7 @@ Le lien d'achat affiché sur les cartes verrouillées se règle avec `NEXT_PUBLI
 
 | | |
 | --- | --- |
-| Framework | Next.js 16.3 (App Router) |
+| Framework | Next.js 16.4 (App Router) |
 | UI | React 19.2 |
 | Langage | TypeScript 5 (strict) |
 | Styles | Tailwind CSS 4 |

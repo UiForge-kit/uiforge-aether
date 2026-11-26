@@ -4,9 +4,11 @@ import Link from "next/link";
 import { FlashIcon } from "@hugeicons/core-free-icons";
 import { motion } from "motion/react";
 import { Icon } from "@/components/icon";
+import { MOCK_USER } from "@/lib/mock/user";
 import { cn } from "@/lib/utils";
 
 export function UpgradeCta({ className }: { className?: string }) {
+  if (MOCK_USER.plan !== "free") return null;
   return (
     <Link
       href="/settings?section=facturation"

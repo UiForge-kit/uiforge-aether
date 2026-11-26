@@ -1,7 +1,7 @@
 export const SITE = {
   name: "Aether",
   shortName: "Aether",
-  tagline: "Template open source d'interface de chat IA",
+  tagline: "Template d'interface de chat IA",
   description:
     "Base Next.js prête à brancher sur Anthropic, OpenAI ou n'importe quel provider : streaming, trois thèmes, données mockées.",
   repository: "https://github.com/UiForge-kit/uiforge-aether",

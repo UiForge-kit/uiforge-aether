@@ -9,6 +9,7 @@ import { BrandMark } from "@/components/brand-mark";
 import { Icon } from "@/components/icon";
 import { ConversationItem } from "@/components/sidebar/conversation-item";
 import { UserCard } from "@/components/sidebar/user-card";
+import { EDITION_LABEL } from "@/config/edition";
 import {
   Accordion,
   AccordionItem,
@@ -51,7 +52,7 @@ export function Sidebar() {
             {SITE.name}
           </span>
           <span className="text-muted-foreground block truncate text-[0.6875rem] leading-tight">
-            Template open source
+            {EDITION_LABEL}
           </span>
         </span>
 
